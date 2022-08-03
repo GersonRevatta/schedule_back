@@ -23,7 +23,7 @@ Datos base
  rake db:seed
 ```
 
-Ejecutar rakes
+Ejecutar rakes  
 1 Establecer dias
 ```
   rake "day:set_days"
@@ -31,7 +31,7 @@ Ejecutar rakes
 
 2 Establecer horas, por dias
 ```
-	rake "day:set_hours"
+  rake "day:set_hours"
 ```
 
 3. Cargar contratos
