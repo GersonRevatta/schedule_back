@@ -1,24 +1,45 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Iniciar Proyecto
+ruby -v
+```
+ruby 3.1.0
+```
 
-Things you may want to cover:
+rails -v 
+```
+Rails 7.0.3.1
+```
 
-* Ruby version
+### Configuración
+Ejecutar
+```
+bundle
+```
 
-* System dependencies
+### Cargar Datos
+Datos base
+```
+ rake db:seed
+```
 
-* Configuration
+Ejecutar rakes
+1 Establecer dias
+```
+  rake "day:set_days"
+```
 
-* Database creation
+2 Establecer horas, por dias
+```
+	rake "day:set_hours"
+```
 
-* Database initialization
+3. Cargar contratos
+```
+rake "contract:generate_new"
+```
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+4. Ejecutar Proyecto
+```
+rails s
+```
