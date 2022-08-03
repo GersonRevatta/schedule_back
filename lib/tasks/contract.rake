@@ -11,5 +11,6 @@ namespace :contract do
         hours: WorkHour.pluck(:id).sample(25)
       )
     end
+    p "finish."
   end
 end
